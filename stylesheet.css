@@ -353,17 +353,20 @@ section{
 .progress-line.html span{
     width: 90%;
 }
+.progress-line.typescript span{
+    width: 60%;
+}
 .progress-line.css span{
     width: 80%;
 }
-.progress-line.javascript span{
-    width: 75%;
+.progress-line.nodejs span{
+    width: 80%;
 }
-.progress-line.python span{
+.progress-line.nextjs span{
     width: 50%;
 }
-.progress-line.react span{
-    width: 70%;
+.progress-line.sql span{
+    width: 75%;
 }
 .progress-line span::after{
     position: absolute;
@@ -380,17 +383,20 @@ section{
 .progress-line.html span::after{
     content: "90%";
 }
+.progress-line.typescript span::after{
+    content: "60%";
+}
 .progress-line.css span::after{
     content: "80%";
 }
-.progress-line.javascript span::after{
-    content: "75%";
+.progress-line.nodejs span::after{
+    content: "80%";
 }
-.progress-line.python span::after{
+.progress-line.nextjs span::after{
     content: "50%";
 }
-.progress-line.react span::after{
-    content: "70%";
+.progress-line.sql span::after{
+    content: "75%";
 }
 .progress-line span::before{
     content: "";
@@ -955,4 +961,5 @@ position: relative;
         opacity: 1;
     }
 }
+
  
